@@ -5,7 +5,7 @@
  * @size: size of array
  * @start: start of the partion index to be sorted
  * @end: end of the partion index to be sorted
- * Return: Void. Prints array after each iteration 
+ * Return: Void. Prints array after each iteration
 */
 void quick_recursive(int *array, size_t size, int start, int end)
 {
@@ -15,7 +15,7 @@ void quick_recursive(int *array, size_t size, int start, int end)
 		int i1 = start - 1;
 		int i2;
 
-		for (i2 = start; i2 <= end -1; i2++)
+		for (i2 = start; i2 <= end - 1; i2++)
 		{
 			if (array[i2] <= pivot)
 			{
@@ -48,7 +48,7 @@ void quick_recursive(int *array, size_t size, int start, int end)
  * using quick sort algorithm
  * @array: Array of ints to sort
  * @size: size of array
- * Return: Void. 
+ * Return: Void.
 */
 void quick_sort(int *array, size_t size)
 {
